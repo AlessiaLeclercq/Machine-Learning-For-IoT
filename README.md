@@ -15,7 +15,7 @@ Model training and inference on the test-set can be found [here](https://github.
 
 Model optimization has beenperformed using a combination of width scaling and weight pruning. 
 
-## Vocal detection and monitoring 
+## Vocal detection and battery status monitoring 
 The trained model is deployed in the [following VAD script](https://github.com/AlessiaLeclercq/Machine-Learning-For-IoT/blob/main/VAD.py). 
 
 When "Go" is detected with probability higher than .95, the battery monitoring should start; wheras, when "Stop" is detected with probability higher than .95, the battery monitoring should stop. In all other cases, any action on the battery monitoring must be performed (either probability less than .95, silence or other words detected). 
