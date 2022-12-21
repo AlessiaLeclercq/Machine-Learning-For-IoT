@@ -6,7 +6,7 @@ Development of a Deep Learning model to be used in VAD.
 ## Audio preprocessing and model training
 The [following script](https://github.com/AlessiaLeclercq/Machine-Learning-For-IoT/blob/main/preprocessing.py) preprocesses the audio and converts them into MFCCs on which to perfrom model training and inference. 
 
-Model training and inference on the test-set can be found [here](https://github.com/AlessiaLeclercq/Machine-Learning-For-IoT/blob/main/training.ipynb). The model structure, the preprocessing arguments as well the optimization ones have been found using a parameter grid search in order to respect the following constraints (when trained on the standard version od Deepnote [notebook]()). 
+Model training and inference on the test-set can be found [here](https://github.com/AlessiaLeclercq/Machine-Learning-For-IoT/blob/main/training.ipynb). The model structure, the preprocessing arguments as well the optimization ones have been found using a parameter grid search in order to respect the following constraints (when trained on the standard version od Deepnote [notebook](https://github.com/AlessiaLeclercq/Machine-Learning-For-IoT/blob/main/testing.ipynb)). 
 
 |  | TEST ACCURACY |  MEDIAN LATENCY OVER TEST | MEMORY OCCUPATION |
 |:-------|:-------|:--------|:--------|
