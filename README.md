@@ -27,8 +27,10 @@ Battery monitoring: data about the battery status (in percentage) and the plugge
 An [MQTT publisher](https://github.com/AlessiaLeclercq/Machine-Learning-For-IoT/blob/main/publisher.py) has been developed with the aim of publishing the battery status and percentage of the laptop on the message broker 'mqtt.eclipseprojects.io' at port 1883. 
 The [MQTT subscriber](https://github.com/AlessiaLeclercq/Machine-Learning-For-IoT/blob/main/subscriber.ipynb) instead stores on Redis the obtained time series. 
 
-
 ## REST SERVER AND CLIENT
 A [REST server](https://github.com/AlessiaLeclercq/Machine-Learning-For-IoT/blob/main/rest_server-2.ipynb) has been developed according to the specifications present in [this file](https://github.com/AlessiaLeclercq/Machine-Learning-For-IoT/blob/main/ML4IoT-HW3.pdf).
 A [REST client](https://github.com/AlessiaLeclercq/Machine-Learning-For-IoT/blob/main/rest_client.ipynb) has been developed to test the server functionalities. 
 
+
+# EMERGENCY VEHICLE SIREN DETECTION 
+The pipeline has ben adapted and applied to the [Emergency Vehicle Sirens Detection task](https://github.com/AlessiaLeclercq/Machine-Learning-For-IoT/tree/main/EMERGENCYSIRENDET)
